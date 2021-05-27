@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0% 2%;
+    
+}
+
+.header a{
+    text-decoration: none;
+    color: rgb(86, 184, 223);
+}
+
+.banner{
+    color: white;
+    background-size: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15% 20%;
+    align-items: center;
+    background-image: url(assets/robot-girl.jpg);
+}
+
+.descbanner{
+    width: 50%;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.choices{
+    padding: 5% 15%;
+    display: flex;
+}
+
+.lower-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offering{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+}
+
+.offering-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+}
+
+.offering > img{
+    height: 500px;
+    width: 500px;
+}
+
+.footer{
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.socmed{
+    display: flex;
+    width: 140px;
+    justify-content: space-around;
+}
+
+.socmed  a img{
+    height: 60px;
+    width: 60px;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6cm 0cm;
+}
